@@ -1,0 +1,10 @@
+{
+  "name": "flipr-fullstack",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "concurrently \"npm run dev --prefix flipr-frontend\" \"npm run dev --prefix flipr-backend\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.0"
+  }
+}
